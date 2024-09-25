@@ -127,7 +127,7 @@ SearchingTree<K, V>::SearchingTree(const K &key, const V &value){
     this->k = key;
     this->left = nullptr;
     this->right = nullptr;
-    return this;
+    return;
 }
 
 
